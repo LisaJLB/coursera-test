@@ -1,0 +1,47 @@
+		body {
+			background-color: black;
+			color: whitesmoke;
+		}
+		h1 {
+		 font-family: Georgia, serif;
+         font-size: 46px;
+         color: whitesmoke;
+		}
+		h2 {
+		 font-family: Georgia, serif;
+         font-size: 32px;
+          color: whitesmoke;
+		}
+		p {
+			font-family: sans-serif;
+			font-size: 16px;
+			 color: whitesmoke;
+		}
+		 li {
+			list-style: none;
+		}
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: seagreen;
+			border: 1px solid green;
+			border-radius: 6px;
+		    color: whitesmoke;;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+			font-family: sans-serif;
+			font-size: 16px;
+		}
+		  li:nth-child(1) a:hover, a:active {
+			background-color: lightblue;
+			color: purple;
+		}
+		 li:nth-child(2) a:hover, a:active {
+			background-color: orange;
+			color: purple;
+		}
+		li:nth-child(3) a:hover, a:active {
+			background-color: pink;
+			color: purple;
+		}
