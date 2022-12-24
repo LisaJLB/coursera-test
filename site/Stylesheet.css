@@ -4,17 +4,17 @@
 		}
 		h1 {
 		 font-family: Georgia, serif;
-         font-size: 46px;
+         font-size: 200%;
          color: whitesmoke;
 		}
 		h2 {
 		 font-family: Georgia, serif;
-         font-size: 32px;
+         font-size: 150%;
           color: whitesmoke;
 		}
 		p {
 			font-family: sans-serif;
-			font-size: 16px;
+			font-size: 100%;
 			 color: whitesmoke;
 		}
 		 li {
@@ -31,7 +31,7 @@
 			text-align: center;
 			margin-bottom: 1px;
 			font-family: sans-serif;
-			font-size: 16px;
+			font-size: 100%;
 		}
 		  li:nth-child(1) a:hover, a:active {
 			background-color: lightblue;
