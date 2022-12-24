@@ -22,8 +22,8 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: lts/*
-    - name: Install deps and build
       run: |
+        make
         npm i
         npm run build
     # When the dist_dir is ready, deploy it to neocities
@@ -32,4 +32,4 @@ jobs:
       with:
         api_token: ${{ secrets.neocities_api_token }}
         cleanup: false
-        dist_dir: public
+        _site: public
