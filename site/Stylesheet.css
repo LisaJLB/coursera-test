@@ -37,7 +37,7 @@ div{
   margin-top: 50px;
   overflow: auto;
   position: relative;
-  width:90%;
+  width:100%;
 }
 	#box-2 {
   background-color: black;
@@ -45,7 +45,7 @@ div{
   margin-top: 0px;
   overflow: auto;
   position: relative;
-  width:90%;
+  width:100%;
 }
 img {
   max-width: 80%;
