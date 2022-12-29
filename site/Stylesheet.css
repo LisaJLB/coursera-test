@@ -47,6 +47,10 @@ div{
   position: relative;
   width:80%;
 }
+img {
+  max-width: 80%;
+  height: auto;
+}
 }
 	}
 		h1 {
@@ -95,3 +99,7 @@ div{
 			background-color: pink;
 			color: purple;
 		}
+img {
+  max-width: 100%;
+  height: auto;
+}
