@@ -7,6 +7,9 @@ body {
 	   background-color: black;
 	   color: whitesmoke;
 		}
+div{
+		position: relative;
+		}
 @media (min-width: 1200px) {
 	#box {
   background-color: black;
